@@ -4,7 +4,17 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * Main class to run the JSON to CSV conversion process.
+ * This class serves as the entry point for the application.
+ * @author Yahel Perez
+ * @version 1.0 (Sprint 2)
+ */
 public class Main {
+    /**
+     * The main method that executes the program.
+     * @param args Command line arguments (not used).
+     */
     public static void main(String[] args) {
         String inputFile = "input.json";
         String outputFile = "output.csv";
