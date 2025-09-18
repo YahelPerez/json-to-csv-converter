@@ -1,0 +1,23 @@
+[
+  {
+    "publicationId": "PUB-001",
+    "author": "Dr. Evelyn Reed",
+    "title": "Quantum Computing Advances",
+    "year": 2024,
+    "journal": "Journal of Advanced Science"
+  },
+  {
+    "publicationId": "PUB-002",
+    "author": "Dr. Samuel Chen",
+    "title": "AI in Modern Medicine",
+    "year": 2025,
+    "journal": "Medical Technology Today"
+  },
+  {
+    "publicationId": "PUB-003",
+    "author": "Dr. Evelyn Reed",
+    "title": "Further Studies in Quantum Fields",
+    "year": 2025,
+    "journal": "Journal of Advanced Science"
+  }
+]
