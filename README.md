@@ -9,6 +9,7 @@ This project is a Java-based command-line application designed to automate the p
 * **CSV Writing:** Writes the parsed data into a well-formatted CSV file with headers.
 * **Error Handling:** Gracefully handles common errors like file-not-found and invalid JSON format.
 * **Gradle Build:** Uses the Gradle Wrapper for easy and consistent project building.
+* **Unit Tested:** Includes JUnit 5 tests to validate the core JSON reading logic.
 
 ---
 ## Prerequisites
@@ -37,4 +38,19 @@ This project is a Java-based command-line application designed to automate the p
         ```bash
         ./gradlew run
         ```
+    * This command will automatically download dependencies, compile the code, and run the program. An `output.csv` file will be generated.
+
+---
+## ## Testing
+
+This project includes unit tests for the `JsonReader` class. To run the tests, you can either use your IDE (right-click on the `JsonReaderTest.java` file and select "Run 'JsonReaderTest'") or execute the following command in your terminal:
+
+* On Windows:
+    ```bash
+    gradlew.bat test
+    ```
+* On macOS or Linux:
+    ```bash
+    ./gradlew test
+    ```
     * This command will automatically download dependencies, compile the code, and run the program. An `output.csv` file will be generated.
